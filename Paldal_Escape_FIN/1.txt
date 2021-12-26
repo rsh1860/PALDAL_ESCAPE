@@ -1,0 +1,16 @@
+  11> Static and final
+1. Static methods
+   1) Objects have state and behaviour, and their behaviour can depend on their states
+   2) sometimes we need just behaviour without state
+	- a method that acts only on the parameters
+	- a method that doesn't depend on instance variables
+	- static methods are associated with class instead of object
+   3) don't need to create an object to call a static method
+2. Static varialbes
+   1) Static variavles store data that every object of the class can share
+   2) if we don't give any value to a static variable, 
+      it will get a default value(0, 0.0, null, false) when the class is loaded
+3. Static final constant
+   1) variable marked "final" means that it can never change after initialization
+   2) by marking a variable both "static" and "final" we can have a class constant
+   3) final is not just for static

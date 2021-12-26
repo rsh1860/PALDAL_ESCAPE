@@ -1,0 +1,78 @@
+1.Variable 
+-type: reference & basetype
+-instance variables (inside a class) 
+ class variables (inside a class, static) 
+ As local variables (inside a method) 
+ As method parameters 
+-define variable 
+ int var (type, name)(base type)
+ Dog d (type, name)(reference)
+
+-base type variable
+ -- boolean(true or false) 
+   char(2byte)
+   byte(1byte)
+   short(2byte)
+   int(4byte)
+   long(8byte)
+   float(4byte)
+   double(8byte)
+ --Spiling
+  int x=0;
+  short y=x; (ERROR)
+  Don't input the larger one to samller one
+
+
+-reference variable 
+ --Object o=new Object();
+ (referencetype)  (reference variable) (real object)
+ --stored in heap
+ --reference variable don't hold the Object
+   but pointer or address to the object
+ -- access method   
+   o.toString();
+   Dog d=new Dog()->d.bark();
+ --object on the Heap 
+  Dog d1=new Dog();
+  Dog d2=new Dog();
+  ->These reference variables refer to two Book objects. The Book objects are stored on the heap.
+  d2=d1;
+  ->d2 and d1 refer to same object.
+  ->old object that is refered by d2 become ABANDONED!(eligible GC)
+  d1=null;
+  ->d1 doesn't refer to anything
+
+Casting:converting from one type to another. 
+-explicit casting((typename))
+double d=10.2;
+int i=(int) d;
+-implicit casting: casting that JVM does it automatically. 
+double d1=10.2; int i=10;
+double d2=i/d1;(OK!)
+
+
+Arrays 
+-base type array
+--numbered list of variables 
+--Array is object :array variable is a reference to the array object
+--define Array
+  int[] n=new int[4];(declare variable and create array object)
+  n[0]=1;n[1]=2;n[2]=3;n[3]=4;(initialize)
+  n is a object! but n[0] is primitive .
+--Careful ArrayIndexOutOfBoundsException: when refer to index that does not exist
+ex)  int[] n=new int[4];
+      n[0]=1;n[1]=2;n[2]=3;n[3]=4; 
+      n[4]=5;->ERROR
+
+-Array of Objects
+--numbered list of variables 
+--Array is object :array variable is a reference to the array object
+--define Array
+String[] s=new String[3];(declare variable and create array object)
+s[0]="0"; s[1]="1";  s[2]=new String("2");(initialize)
+(special feature of String)  
+--careful ArrayIndexOutOfBoundsException
+--Dog d= new Dog[3];
+  d[0]=new Dog(); d[1]=new Dog(); d[2]=new Dog(); 
+  d is a object, d[0] is a object to Dog object.
+  d[0].bark();(access Dog method)

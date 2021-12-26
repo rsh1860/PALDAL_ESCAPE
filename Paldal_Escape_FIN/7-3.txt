@@ -1,0 +1,8 @@
+   which is TRUE result?
+ArrayList<String> list=new ArrayList<String>();
+String s1="s1";String s2="s2";String s3="s3";
+list.add(s1); list.add(s3); list.remove(0); list.add(s2);
+1.boolean b=list.contains(s1) -> b= true
+2.int s=list.size(); -> s=2
+3.int s=list.length; -> s=2
+4.int i=list.indexOf(s3) -> i=1

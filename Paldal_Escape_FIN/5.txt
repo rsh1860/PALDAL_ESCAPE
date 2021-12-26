@@ -1,0 +1,43 @@
+   07_ Inheritance and Composition
+	Inheritance: 
+	Subclass inherits instance variables and methods of the superclass and adds some new stuff.
+Step 1: identifying common state and behavior.
+Step 2: Create a superclass with common code.
+Step 3: overriding.
+Step 4: more abstraction
+	Dynamic binding (also late binding): a method which is called is determined at runtime. When a method is called, JVM chooses the method that is lowest (closest) in the class hierarchy.
+	Q: How do we know if we should use inheritance?
+A: the IS-A Test
+	IS-A works only in one direction! (ex. Triangle IS-A Shape(O) / Shape IS-A Triangle(X))
+	Composition:
+	Has-A relationship is called composition because a class is composed of another class(es).
+	The super Keyword: When a subclass wants to call method (or constructor) of the superclass, it can use the super keyword:
+	For a method: super.method(arguments);
+	For a constructor: super(arguments);
+	Ex)
+// Superclass.java
+public class Superclass {
+public void printMethod() {
+System.out.println("Printed in Superclass.");
+}
+}
+// Subclass.java
+public class Subclass extends Superclass {
+// overrides printMethod in Superclass
+@Override
+public void printMethod() {
+super.printMethod(); // calls Superclass' printMethod()
+System.out.println("Printed in Subclass");
+}
+public static void main(String[] args) {
+Subclass s = new Subclass();
+s.printMethod();
+}
+
+	Access Modifiers
+	We can use access modifiers to define how classes, instance variables and methods can be accessed from other classes. These modifiers control the visibility of your code from outside the class.
+Modifier	Class	Package	Subclass	World
+Public 	Y	Y	Y	Y
+Protected	Y	Y	Y	N
+No modifier	Y	Y	N	N
+Private	Y	N	N	N

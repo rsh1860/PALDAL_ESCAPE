@@ -1,0 +1,5 @@
+   Q3. Does subclass can use superclass¡¯ instance variables?
+	1) Yes
+	2) Nope
+        3) Maybe
+        4) Never

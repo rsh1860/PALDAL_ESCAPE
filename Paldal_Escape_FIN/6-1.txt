@@ -1,0 +1,16 @@
+   Q1. What will be printed out?
+public class MyNum {
+void go(int z) {
+z = 0;
+}
+public static void main (String args[ ]) {
+int x = 7;
+MyNum m = new MyNum();
+m.go(x);
+System.out.println(x);
+}
+}
+1) 0
+2) 7
+3) 14
+4) 21

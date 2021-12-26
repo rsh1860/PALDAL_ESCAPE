@@ -1,0 +1,5 @@
+   select the correct thing
+1. in java, you can make three superclasses
+2. multiple inheritance means only one superclass and many subclasses
+3. common behavior is defined by the methods inherited from the superclass
+4. nothing correct

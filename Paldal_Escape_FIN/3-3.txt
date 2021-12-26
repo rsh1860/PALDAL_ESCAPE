@@ -1,0 +1,5 @@
+   3. choose the right one
+   1. to create abstract class, add the "abstract" to class and every method
+   2. abstract class cannot create objects from it
+   3. cannot mix both abstract and concrete methods in an abstract class
+   4. an concrete method must be overload in the superclass

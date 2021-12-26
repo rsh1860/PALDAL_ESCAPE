@@ -1,0 +1,69 @@
+  Classes and Objects
+
+* Class: Type (blueprint or model) of an object 
+? Defines instance variables (state) and methods (behaviour). 
+? Example: class ¡°Dog¡± has variables size, breed and name, and a method bark(). 
+
+* Object: An instance (realization) of the class 
+? Many objects of the same class can exist, such as yourDog, myDog,...
+
+Building blocks of a class
+
+* Instance variables: 
+? Store state of an object (also called fields) 
+? Each instance variable must have a type: either base type or a reference type 
+	* Base types: int, long, boolean, etc. 
+	* Reference types: references to other objects 
+
+* Methods: ? Define behavior (actions) of an object ? Can have parameters and a return value ? Similar to functions in C
+
+
+Method Modifiers
+
+* public ? Anyone can call 
+* protected ? Only method of the same package or of its subclasses can call 
+* private ? Only methods inside the same class can call 
+* static ? A method which is associated with a class but not with an object (later)
+* final ? A method that cannot be overridden by a subclass (later) 
+* abstract ? A method that has no body (later)
+
+Base Type
+
+boolean : true or false.
+int : 32-bit signed two¡¯s complement integer.
+char : 16-bit Unicode character.
+long : 64-bit signed two¡¯s complement integer.
+byte : 8-bit signed two¡¯s complement integer.
+float : 32-bit floating-point number.
+short : 16-bit signed two¡¯s complement integer.
+double : 64-bit floating-point number.
+
+Operators
+
+* Logical operators:
+ 
+< less than 
+<= less or equal than 
+== equal (notice the difference to assignment operator '=') 
+!= not equal 
+>= greater than or equal 
+> greater than 
+! not (prefix) 
+&& conditional AND 
+|| conditional OR
+
+Loops
+
+- Traditional for loop
+- For-each loop
+- While loop
+- Do-while loop
+
+Branching
+
+- If-else
+- If-else if-else
+- switch 
+
+Arrays
+- An ordered group of items of the same type.

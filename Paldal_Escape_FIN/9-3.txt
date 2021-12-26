@@ -1,0 +1,5 @@
+   what method is not allowed overriding? 
+
+1) protect 2) static 3) public 4) private
+
+

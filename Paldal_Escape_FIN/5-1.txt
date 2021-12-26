@@ -1,0 +1,5 @@
+   Q1. Which number has passed the IS-A Test?
+1)	Cat is a Dog
+2)	Bathtub is a toilet
+3)	Hippo is an Animal
+4)      Dog is a Hippo

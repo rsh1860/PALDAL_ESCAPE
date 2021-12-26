@@ -1,0 +1,5 @@
+   select the wrong one
+1. Interface does not have constructor
+2. can create a new object from an interface
+3. interface is not extended by a class
+4. interface cannot have instance variables

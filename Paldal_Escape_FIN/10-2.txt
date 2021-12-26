@@ -1,0 +1,6 @@
+   2. choose not corrected operators
+
+ 1) < less than  
+ 2) = equal 
+ 3) != not equal 
+ 4) >= greater than or equal 

@@ -1,0 +1,13 @@
+   Before study, Search for overriding's dictionary meaning
+Overide is "ignore, invalidity, dismissal" 
+Overriding is "the first, first priority, precedence over others"
+
+
+In programming, Overriding was defined as a single word,
+"Defined method in the patents Class change in the child class" 
+
+All method allowed overriding
+But Static method is not allowed overriding
+
+
+

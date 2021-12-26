@@ -1,0 +1,7 @@
+   pro2.
+among these, which is TRUE?(Dog is Class)
+1.when Dog d=new Dog();, d holds object Dog.
+2.when int i1=3,i2=6 double d=i1/i2, d is 0.5
+3.when Dog d=new Dog(); Dog c=d; then c=null, object Dog that
+is refered by c become  eligible  GC.
+4.when int[] n=new int[8];, n[8] is not exist.

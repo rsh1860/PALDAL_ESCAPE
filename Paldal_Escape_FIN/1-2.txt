@@ -1,0 +1,7 @@
+  fill the blanks
+If you have a class with only (     ) methods, and you want to prevent objects being created,
+you can mark the construcor (     )
+1. static, public
+2. static, private
+3. final, public
+4. constructor, public

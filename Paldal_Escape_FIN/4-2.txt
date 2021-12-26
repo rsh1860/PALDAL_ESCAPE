@@ -1,0 +1,3 @@
+   2. fill the blacks
+   in overriding, (       ) of the method must be the same than in (            )
+   (1) name, superclass (2) name, subclass (3) type, superclass (4) type, subclass

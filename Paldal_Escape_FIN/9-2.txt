@@ -1,0 +1,5 @@
+   5. What is this?
+
+this just means that a subclass redefines one of its inherited methods when it needs to change or extend the behavior of that method.
+
+1) Override  2) Overrode  3) Superclass  4) Guardian

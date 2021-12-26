@@ -1,0 +1,7 @@
+   fill the blanks
+
+Interface is like (       ) class, except for that "(   ) methods are abstract"
+1. abstract, all
+2. abstract, some
+3. concrete, all
+4. concrete, some

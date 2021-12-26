@@ -1,0 +1,3 @@
+   2. fill the blanks
+   an abstract method must be (     ) in the (      )
+   (1) overriden, subclass (2) overload, superclass (3) overriden, superclass (4) overload, subclass

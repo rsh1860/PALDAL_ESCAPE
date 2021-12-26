@@ -1,0 +1,6 @@
+ pro1.
+among these, which is Not ERROR?
+1.int x=24; byte b=x;
+2.short s=1; int i=s;
+3.float f=2.4; int i=f;
+4.byte b=128;

@@ -1,0 +1,5 @@
+   1. choose not loops
+ 1) Traditional for 
+ 2) While 
+ 3) If-else
+ 4) Do-while 

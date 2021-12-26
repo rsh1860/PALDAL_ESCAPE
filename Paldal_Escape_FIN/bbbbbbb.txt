@@ -1,0 +1,117 @@
+ArrayList
+-Methods in ArrayList:
+ add(Object e):add the parameter object to the list 
+ remove(int index):remove the object at the index parameter
+ remove(Object e):remove parameter object
+ contains(Object o):if there is a match for object parameter,return true
+ isEmpty(): if list has no elements return true
+ indexOf(Object e):return index of parameter object,or -1
+ size():return the number of elements in list
+ get(int index): return object at the index parameter
+-Operation
+ ArrayList<Dog> list=new ArrayList<Dog>(); (make an ArrayList holds Dog object(Dog:type parameter))
+ Dog d=new Dog(); list.add(d); (put d into list)
+ int s=list.size(); (get the neumber of elements in list/ s=1)
+ boolean e=list.isEmpty(); (list is empty? /false)
+ int di=list.indexOf(d); (di is index of d /d=0)
+ Dog s=list.get(0); (s is d)
+ boolean isIn=list.contains(d); (list contains d? /true)
+ list.remove(0); (remove d at the list)
+
+ArrayList vs Array
+-when creating, Needs not size(resizes dynamically) / Needs size
+-when adding, Needs not index / Needs index
+-use Not syntax / use array syntax
+- To get the number of elements, 
+  use size() method / use the length variable 
+-store only object not base type/store both
+
+JAVA API
+-Java API classes are grouped into packages.
+-To use a class, you need to know in which package the class is.
+-Package name is used to determine the full name (or "address") of a class.
+-In your project, package name is a folder path inside source code folder (src).
+
+-Full name of Class
+ java.util.ArrayList
+(package name+Class name)
+
+-benefit of Using package
+  help the overall organization of a project or library
+  prevent name collisions
+  provide a level of security(private, protected...)
+
+
+Wrapping / Unwrapping a base type
+-wrapper class: Boolean, Character,Byte,Short,Integer,Long, Flaot, Double.
+-in Wrapper class object, base type is.
+-Wrapping a value
+ int i=10; Integer iw=new Integer(i);
+-Unwrapping a value
+ int uw=iw.intValue();
+-AutoBoxing:do wrapping/unwrapping automatically
+ ex)ArrayList<Integer> list = new ArrayList<Integer>();
+    list.add(1);
+-Wrapper class method
+ parseX() methods take a String and convert it to X primitive
+ int x=Integer.ParseInt("1");
+
+
+
+ pro1.
+which is Not true reason using package?
+1.help the overall organization of a project or library
+2.prevent name collisions
+3.if we using package, we can access the class in the same package always.
+4.if we using package, we can provide a level of security.
+
+ pro2.
+which is Not FALSE?
+1. Interger i=new Integer(3);
+   Double d=i;
+2. Interger i=new Integer(3);
+   double d=i;
+3. String s="one";
+   int i=Integer.(s);
+4. ArrayList<int> list = new ArrayList<int>();
+   
+ pro3.
+which is TRUE result?
+ArrayList<String> list=new ArrayList<String>();
+String s1="s1";String s2="s2";String s3="s3";
+list.add(s1); list.add(s3); list.remove(0); list.add(s2);
+1.boolean b=list.contains(s1) -> b= true
+2.int s=list.size(); -> s=2
+3.int s=list.length; -> s=2
+4.int i=list.indexOf(s3) -> i=1
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+   Q3. There are three steps of encapsulation. Choose right things.
+1) mark all instance variables private, mark getters and setters public, Add guardians to setters
+2) mark all instance variables public, mark getters and setters private, Add guardians to setters
+3) mark all instance variables default, mark getters and setters public, Add guardians to setters
+4) mark all instance variables default, mark getters and setters private, Add guardians to setters
+

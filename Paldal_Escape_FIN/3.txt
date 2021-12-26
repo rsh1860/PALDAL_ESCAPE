@@ -1,0 +1,15 @@
+   9> Abstract classes, abstract methods, the Object class
+1. Abstract Class
+   1) declaring a class abstract means you cannot create objects from it
+   2) creating : just add the word "abstract" to class declaration
+   3) a class that is not abstract is concrete
+2. Abstract Methods
+   1) doesn't have a body
+      ex) public abstract void eat();
+   2) an abstract method must be overriden in the subclass
+   3) if you declare an abstract method, you must make the class abstract as well
+   4) can mix both abstract and concrete methods in an abstract class
+3. casting reference types
+   1) casting can also be used with reference types(objects)
+   2) we can cast a reference type back to its real type
+   ex) use casting to get a Dog object back from an ArrayList(list) that stores Objects

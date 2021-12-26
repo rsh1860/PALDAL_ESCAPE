@@ -1,0 +1,5 @@
+   3. choose the right one
+   1. in overriding, parameters and return type can be different
+   2. in polymorphism form means numbers of line or word.
+   3. polymorphism makes easily handle a collection different objects
+   4. overriding is same with overloading

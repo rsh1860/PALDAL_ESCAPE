@@ -1,0 +1,15 @@
+   8> Polymorphism
+1. Polymorphism : 
+   1) ability of an object to take many forms : "to have many forms"(form means type)
+      ex) tiger can be either tiger, feline or animal
+   2) after define a superclass, any subclass of that superclass can be used
+   3) a reference variable and the object it refers to can be different types
+2. why is Polymorphism important?
+   1) can write code that doesn't have to change when you add new subclasses
+   2) easily handle a collection different objects that have the same superclass
+3. Overriding
+   1) overriding = re-write a method that is inherited from superclass
+   2) rules
+      name of the method must be the same than in superclass
+      parameters and return type must be the same
+      the method cannot be less accessible

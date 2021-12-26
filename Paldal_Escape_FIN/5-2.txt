@@ -1,0 +1,5 @@
+   Q2. How can we user overriding?
+1)	Put @Override before using the upper class¡¯ method. 
+2)	Just use it with nothing added.
+3)	Change the return value.
+4)      Change the parameter.

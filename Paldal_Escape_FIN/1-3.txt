@@ -1,0 +1,5 @@
+   select the correct one
+1. static variable do not have default value
+2. final means that it can always change after initialization
+3. final is not just for static
+4. a final class can be extended

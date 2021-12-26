@@ -1,0 +1,13 @@
+   10> Interfaces
+1. Extending behavior
+   1) Common behavior is defined by the methods inherited from the superclass
+   2) Subclasses must follow that behaviour
+2. "multiple inheritance(two or more superclasses)" is not possible in java
+3. Interfaces
+   1) Interface is like abstract class, except for that "All methods are abstract"
+   2) A class that implements an interface, must overriden all of the interface's methods
+   3) does not have constructor
+   4) cannot create a new object
+   5) interface is not extended by a class
+   6) interface is implemented by a class
+   7) cannot have instance variables

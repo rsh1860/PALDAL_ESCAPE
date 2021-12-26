@@ -1,0 +1,7 @@
+  select the wrong one
+1. Object's behaviour cannot depend on their states
+2. don't need to create an object to call a static method
+3. a static method should be called using the class name
+4. to make a constant, mark a variable as final
+
+

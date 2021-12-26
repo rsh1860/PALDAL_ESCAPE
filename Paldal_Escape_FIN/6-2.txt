@@ -1,0 +1,11 @@
+   Q2. Choose proper codes to fill in the blank @@@@@@.
+	int nums[][] = new int[3][5];
+for (int i = 0; i < @@@@@@@; i++) {
+for (int j = 0; j < nums[i].length; j++) {
+System.out.println(nums[i][j]);
+}
+}
+1)	nums[i].length
+2)	nums.length
+3)	nums.strength
+4)      nums[i].add

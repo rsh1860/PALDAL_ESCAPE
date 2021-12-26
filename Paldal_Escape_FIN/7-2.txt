@@ -1,0 +1,8 @@
+   which is Not FALSE?
+1. Interger i=new Integer(3);
+   Double d=i;
+2. Interger i=new Integer(3);
+   double d=i;
+3. String s="one";
+   int i=Integer.paiseInt(s);
+4. ArrayList<int> list = new ArrayList<int>();

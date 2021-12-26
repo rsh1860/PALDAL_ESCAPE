@@ -1,0 +1,8 @@
+   4. What is this?
+
+this is A method which is associated with a class but not with an object (later) 
+
+ 1) public
+ 2) protected 
+ 3) private 
+ 4) static 
